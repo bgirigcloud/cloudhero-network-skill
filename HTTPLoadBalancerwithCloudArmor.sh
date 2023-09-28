@@ -7,8 +7,7 @@ export PROJECT_ID=qwiklabs-gcp-02-6c8a4796fd54
 gcloud auth login --no-launch-browser
 gcloud config set project $PROJECT_ID
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/HTTP%20Load%20Balancer%20with%20Cloud%20Armor%20AUGUST/quicklabgsp215.sh
-
+curl -LO https://github.com/bgirigcloud/cloudhero-network-skill/blob/main/HTTPLoadBalancerCloudArmor.sh
 
 sudo chmod +x quicklabgsp215.sh
 
