@@ -1,9 +1,9 @@
-export REGION1=europe-west4
+export REGION1=put region name 
 
-export REGION2=europe-west1
+export REGION2=put region name 
 
-export VM_ZONE=us-east4-b
-export PROJECT_ID=qwiklabs-gcp-02-6c8a4796fd54
+export VM_ZONE=put zone name 
+export PROJECT_ID=put your project name 
 gcloud auth login --no-launch-browser
 gcloud config set project $PROJECT_ID
 
