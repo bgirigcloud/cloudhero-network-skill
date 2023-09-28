@@ -1,7 +1,7 @@
 
 
-export ZONE=us-east4-a
-export PROJECT_ID=qwiklabs-gcp-01-537588fb0f07
+export ZONE=
+export PROJECT_ID=
 #gcloud auth login --no-launch-browser
 gcloud config set project $PROJECT_ID
 
