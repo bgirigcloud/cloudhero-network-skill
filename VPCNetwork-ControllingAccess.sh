@@ -1,7 +1,7 @@
 
 
-export ZONE=us-east4-a
-export PROJECT_ID=qwiklabs-gcp-01-537588fb0f07
+export ZONE=put zone name 
+export PROJECT_ID=put project name 
 #gcloud auth login --no-launch-browser
 gcloud config set project $PROJECT_ID
 
@@ -14,6 +14,3 @@ gcloud compute --project=$PROJECT_ID firewall-rules create allow-http-web-server
 
 gcloud compute instances create test-vm --machine-type=f1-micro --subnet=default --zone=$ZONE
 
-git add .
-git commit -m "ist time"
-git push origin master
