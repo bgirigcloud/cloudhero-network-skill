@@ -1,13 +1,13 @@
-export ZONE=
+export ZONE=put zone name 
 
 NOTE:- Make sure region 2 must be different from zone 
 
-export REGION_2=
+export REGION_2=put region name 
 
 
 
-curl -LO 
+curl -LO https://github.com/bgirigcloud/cloudhero-network-skill/blob/main/multiple-vpc-network.sh
 
-sudo chmod +x quicklabgsp211.sh
+sudo chmod +x multiple-vpc-network.sh
 
-./quicklabgsp211.sh
+./multiple-vpc-network.sh
