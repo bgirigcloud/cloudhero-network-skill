@@ -1,5 +1,5 @@
 
-export REGION_1="${ZONE%-*}"
+
 
 
 gcloud compute networks create managementnet --project=$PROJECT_ID --subnet-mode=custom --mtu=1460 --bgp-routing-mode=regional && gcloud compute networks subnets create managementsubnet-$REGION_1 --project=$PROJECT_ID --range=10.130.0.0/20 --stack-type=IPV4_ONLY --network=managementnet --region=$REGION_1
