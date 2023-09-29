@@ -9,7 +9,7 @@ gcloud config set project $PROJECT_ID
 
 curl -LO https://github.com/bgirigcloud/cloudhero-network-skill/blob/main/HTTPLoadBalancerCloudArmor.sh
 
-sudo chmod +x quicklabgsp215.sh
+sudo chmod +x HTTPLoadBalancerCloudArmor.sh
 
-./quicklabgsp215.sh
+./HTTPLoadBalancerCloudArmor.sh
 
